@@ -18,6 +18,7 @@
 alert(txtJobNumber);
 txtJobNumber = "3748";*/
 
-    document.getElementById("txtJobNumber").value = "3748";
+    var inputField = document.getElementById("txtJobNumber");
+    inputField.value = "3748";
 } //end userscript
 })();
